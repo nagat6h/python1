@@ -25,26 +25,26 @@ x = input("أدخل الرمز (+ أو - أو * أو /): ")
 
 if x == "+":
     n = num1 + num2
-    print("\nناتج الجمع = {n}")
+    print(f"\nناتج الجمع = {n}")
 
 elif x == "-":
     n = num1 - num2
-    print("\nناتج الطرح = {n}")
+    print(f"\nناتج الطرح = {n}")
 
 elif x == "*":
     n = num1 * num2
-    print("\nناتج الضرب = {n}")
+    print(f"\nناتج الضرب = {n}")
 
 elif x == "/":
     if num2 != 0:
         n = num1 / num2
-        print("\nناتج القسمة = {n}")
+        print(f"\nناتج القسمة = {n}")
     else:
         print("\nخطأ: لا يمكن القسمة على صفر!")
 
 elif x == "**":
     n = num1 ** num2
-    print("\nناتج الأس = {n}")
+    print(f"\nناتج الأس = {n}")
 
 else:
     print("\nرمز العملية غير صحيح!")
@@ -54,10 +54,10 @@ else:
 # مقارنة الرقمين
 print("\nالعلاقة بين الرقمين:")
 if num1 > num2:
-    print("{num1} أكبر من {num2}")
+    print(f"{num1} أكبر من {num2}")
 elif num1 < num2:
-    print("{num1} أصغر من {num2}")
+    print(f"{num1} أصغر من {num2}")
 else:
-    print("{num1}  يساوي {num2}")
+    print(f"{num1} يساوي {num2}")
 
 #استخدم شرطًا يتحقق إن كانت الأرقام سالبة أو موجبة
